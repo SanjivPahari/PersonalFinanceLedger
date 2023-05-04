@@ -11,7 +11,7 @@ This is the homepage of the finance system. It shows all of the user's financial
 ![Homepage Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/1_homepage.png)
 
 ### User Transactions
-This features shows a list of transactions made for a specific user. One can view the date, remark, type and amount of each transaction. It also shows the cumulative amount upto the specific point.
+This features shows a list of transactions made for a specific user. One can view the date, remark, type, payment method and amount of each transaction. It also shows the cumulative amount upto the specific point.
 
 ![User Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/2_user_transaction.png)
 
