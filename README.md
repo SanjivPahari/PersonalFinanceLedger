@@ -2,6 +2,22 @@
 
 A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allows users to track incoming and outgoing transactions.
 
+#### Developed: Arpil 2023
+
+### Developer:
+
+- Sanjiv Pahari
+Oh boy, do I have a story to tell you!<br>
+You know that feeling when you need something so badly that it's like your life depends on it? Well, that's exactly what happened to me. I was in desperate need of a tool that could help me manage my transactions, and I just couldn't find anything that fit the bill.<br>
+But then, I stumbled upon ChatGPT and its amazing ability to write code. I was so curious that I just had to give it a try. And boy, was I blown away by its capabilities! I knew right then and there that I had to create a tool that would help me manage my transactions easily and efficiently.<br>
+So, I set out on a journey to develop this simple yet powerful tool. It took a lot of hard work and dedication, but it was all worth it. This tool has saved me countless hours of frustration and made my life so much easier.<br>
+Gone are the days of juggling my transactions between Messenger, Notepad, and other apps. With this tool, I can easily manage all my transactions in one place. And let me tell you, keeping up with transactions was a nightmare before.<br>
+I'd say ChatGPT contributed about 50% to the development of this tool, but the other 50% was all me. I have also added payment modes like eSewa and Connectips that are tailored to my needs.<br>
+In conclusion, if you're ever in a situation where you need a tool so badly that you can't live without it, just go ahead and create it! Who knows, it might just change your life. And hey, don't forget to thank ChatGPT for helping me polish this description too!
+
+
+
+
 ## Features
 
 ### Homepage
@@ -44,9 +60,9 @@ All clear means that all settlements are done, i.e. Net Amount = 0. User can opt
 ### Transaction Types
 Displays different types of transactions that a user can add to the finance system.
 
-!  Pending transactions are displayed by yellow highlight.
-+ Transactions to recieve are shown in green.
-- Transactions to give are shown in red.
+<br> Pending transactions are displayed by yellow highlight.
+<br> Transactions to recieve are shown in green.
+<br> Transactions to give are shown in red.
 
 - Transaction Type 1: Receive Pending
 ![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
