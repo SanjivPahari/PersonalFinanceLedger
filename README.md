@@ -61,8 +61,8 @@ Displays different types of transactions that a user can add to the finance syst
 ![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
 
 
-### Pending Transactions
-Displays a list of pending transactions that have not been processed yet, allowing users to keep track of transactions that are waiting to be completed.
+### Pending Settelments
+Displays a list of payees with whom settlements that have not been made yet, allowing users to keep track of settlements that are waiting to be completed.
 
 ![Pending Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/6_show_pending.png)
 
