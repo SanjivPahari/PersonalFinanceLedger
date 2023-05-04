@@ -26,6 +26,9 @@ Transactions can be searched by entering payee's name, remark.
 ### Add Transaction
 Allows users to add a new transaction by selecting the transaction amount, type, remark, and payment method. User can also upto to provide further details on payment method like payment account number or other details.
 
+##### All Clear
+All clear means that all settlements are done, i.e. Net Amount = 0. User can opt to select this option to put the transaction under 'All Clear', so that they can easily distingush points where settlements were made. The transactions where 'All Clear' were made will be displayed in blue row.
+
 ![Add Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction.png)
 
 #### Name Suggestion
