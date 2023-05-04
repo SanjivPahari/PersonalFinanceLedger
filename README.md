@@ -62,7 +62,22 @@ This screenshot displays a list of pending transactions that have not been proce
 ### 7_transaction_type_1.png, 7_transaction_type_2.png, 7_transaction_type_3.png, 7_transaction_type_4.png
 These screenshots display different types of transactions that a user can add to the finance system. Each transaction type has its own set of categories and fields.
 
+### Transaction Type Screenshots
+
 - Transaction Type 1: Income transaction
 ![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
 
-- Transaction
+- Transaction Type 2: Expense transaction
+![Expense Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_2.png)
+
+- Transaction Type 3: Transfer transaction
+![Transfer Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_3.png)
+
+- Transaction Type 4: Loan transaction
+![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
+
+### 8_transaction_search.png
+This screenshot displays the transaction search feature. The user can search for transactions by keyword, transaction type, category, and date.
+
+![Transaction Search Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/8_transaction_search.png)
+
