@@ -5,17 +5,21 @@ A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allo
 ## Features
 
 ### Homepage
-Displays a list of all the user's financial transactions, including completed and pending transactions. Clicking on a specific transaction opens up that specific user's transactions.
+Displays a list of all the user's financial transactions, including completed and pending transactions. Clicking on a specific transaction opens up that specific payee's transactions.
 
 ![Homepage Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/1_homepage.png)
 
+#### Transaction Search
+Allows users to search for transactions by directly entering any details associated with the transaction.
+
+![Transaction Search Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/8_transaction_search.png)
+
+
 ### User Transactions
-Shows a list of transactions made for a specific user, including the date, remark, type, payment method, and amount of each transaction. Also displays the cumulative amount up to the specific point.
+Shows a list of transactions made for a specific payee, including the date, remark, type, payment method, and amount of each transaction. Also displays the cumulative amount up to the specific point.
+Transactions can be searched by entering payee's name, remark.
 
 ![User Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/2_user_transaction.png)
-
-### User Transaction Details
-Displays additional details about a specific transaction selected by the user from the previous list, including the transaction's type, category, and a description. Users can also add remarks to the transaction.
 
 ![User Transaction Details Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/2_user_transaction_2.png)
 
@@ -64,7 +68,4 @@ Displays different types of transactions that a user can add to the finance syst
 - Transaction Type 4: Loan transaction
 ![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
 
-### Transaction Search
-Allows users to search for transactions by keyword, transaction type, category, and date.
 
-![Transaction Search Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/8_transaction_search.png)
