@@ -6,12 +6,12 @@ The system has various features such as adding and managing transactions, viewin
 ## Features
 
 ### Homepage
-This is the homepage of the finance system. It shows all of the user's financial transactions. If users clicks on a specific transaction, it will open up that specific user's transactions.
+This is the homepage of the finance system. It shows all of the user's financial transactions. It also shows completed and pending transactions. If users clicks on a specific transaction, it will open up that specific user's transactions.
 
 ![Homepage Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/1_homepage.png)
 
 ### User Transactions
-This features shows a list of transactions made for a specific user. One can view the date, remark, type and amount of each transaction.
+This features shows a list of transactions made for a specific user. One can view the date, remark, type and amount of each transaction. It also shows the cumulative amount upto the specific point.
 
 ![User Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/2_user_transaction.png)
 
