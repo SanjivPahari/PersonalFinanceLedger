@@ -44,9 +44,9 @@ All clear means that all settlements are done, i.e. Net Amount = 0. User can opt
 ### Transaction Types
 Displays different types of transactions that a user can add to the finance system.
 
-<br> Pending transactions are displayed by yellow highlight.
-<br> Transactions to recieve are shown in green.
-<br> Transactions to give are shown in red.
+!  Pending transactions are displayed by yellow highlight.
++ Transactions to recieve are shown in green.
+- Transactions to give are shown in red.
 
 - Transaction Type 1: Receive Pending
 ![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
@@ -61,28 +61,28 @@ Displays different types of transactions that a user can add to the finance syst
 ![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
 
 
-### Archived Transactions
-
-Displays a list of archived transactions that are no longer relevant or useful. <br> 
-User can click on arhive button to sent the transaction to archive. This removes the transaction from system if there are some errors while entering the transaction. <br>
-If user reclicks the archive button, from the archived section, it will unarchive the transaction.
-
-![Archived Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/4_archived.png)
-
-### Download Backup
-Allows users to download a backup of their financial data, which they can save locally.
-
-![Download Backup Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/5_download_backup.png)
-
-### Download Backup Data
-Displays a pop-up window that provides information about the downloaded backup file, such as the filename and file size.
-
-![Download Backup Data Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/5_download_backup_data.png)
-
 ### Pending Transactions
 Displays a list of pending transactions that have not been processed yet, allowing users to keep track of transactions that are waiting to be completed.
 
 ![Pending Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/6_show_pending.png)
+
+
+### Archived Transactions
+
+Displays a list of archived transactions that are no longer relevant or useful. <br> 
+User can click on archive button to send the transaction to archive. This removes the transaction from system if there are some errors while entering the transaction. <br>
+If user reclicks the archive button, from the archived section, it will unarchive the transaction.
+
+![Archived Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/4_archived.png)
+
+
+### Download Backup
+Allows users to download a backup of their financial data, which they can save locally. The data is stored in .json file.
+
+![Download Backup Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/5_download_backup.png)
+
+![Download Backup Data Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/5_download_backup_data.png)
+
 
 
 
