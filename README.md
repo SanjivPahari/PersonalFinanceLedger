@@ -1,15 +1,11 @@
 # PersonalFinanceLedger
 A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allows users to track incoming and outgoing transactions.
 
-
-
-# Finance System Screenshots
-
 Screenshots of a finance system's user interface. These screenshots showcase various features of the finance system, such as adding and managing transactions, viewing pending transactions, and downloading backups of financial data.
 
-## Screenshots
+## Features
 
-### 1_homepage.png
+### Homepage
 This screenshot displays the homepage of the finance system. It shows an overview of the user's financial status and provides links to various sections of the system.
 
 ![Homepage Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/1_homepage.png)
