@@ -46,7 +46,7 @@ Transactions can be searched by entering payee's name, remark.
 Allows users to add a new transaction by selecting the transaction amount, type, remark, and payment method. User can also upto to provide further details on payment method like payment account number or other details.
 
 #### Name & Remark Suggestion
-Displays a suggestions list of payee's names, remarks. Payee's, remarks with frequent transactions are suggested at top.
+Displays a suggestions list of payee's names, remarks. Payees, remarks with frequent transactions are suggested at top.
 
 ![Add Transaction Name Suggestion Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction_name_suggest.png)
 
