@@ -26,6 +26,13 @@ Transactions can be searched by entering payee's name, remark.
 ### Add Transaction
 Allows users to add a new transaction by selecting the transaction amount, type, remark, and payment method. User can also upto to provide further details on payment method like payment account number or other details.
 
+#### Name & Remark Suggestion
+Displays a suggestions list of payee's names, remarks. Payee's, remarks with frequent transactions are suggested at top.
+
+![Add Transaction Name Suggestion Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction_name_suggest.png)
+
+![Add Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction.png)
+
 ##### Two Way Done
 When a user selects the "Two Way Done" option, it means that a transaction has been completed between two parties. This feature is typically used for spontaneous transactions, where both parties are present and the transaction are settled immediately.
 
@@ -34,12 +41,25 @@ In your example, if you owe Rs. 30 for food and you give the payee Rs. 30, and s
 ##### All Clear
 All clear means that all settlements are done, i.e. Net Amount = 0. User can opt to select this option to put the transaction under 'All Clear', so that they can easily distingush points where settlements were made. The transactions where 'All Clear' were made will be displayed in blue row.
 
-![Add Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction.png)
+### Transaction Types
+Displays different types of transactions that a user can add to the finance system.
 
-#### Name Suggestion
-Displays a suggestions list of payee's names. Payee's with frequent transactions are suggested at top.
+Pending transactions are displayed by yellow highlight.
+Transactions to recieve are shown in green.
+Transactions to give are shown in red.
 
-![Add Transaction Name Suggestion Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction_name_suggest.png)
+- Transaction Type 1: Receive Pending
+![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
+
+- Transaction Type 2: Receive Complete
+![Expense Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_2.png)
+
+- Transaction Type 3: Give Pending
+![Transfer Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_3.png)
+
+- Transaction Type 4: Give Complete
+![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
+
 
 ### Archived Transactions
 Displays a list of archived transactions that are no longer relevant or useful.
@@ -61,19 +81,5 @@ Displays a list of pending transactions that have not been processed yet, allowi
 
 ![Pending Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/6_show_pending.png)
 
-### Transaction Types
-Displays different types of transactions that a user can add to the finance system, each with its own set of categories and fields.
-
-- Transaction Type 1: Income transaction
-![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
-
-- Transaction Type 2: Expense transaction
-![Expense Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_2.png)
-
-- Transaction Type 3: Transfer transaction
-![Transfer Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_3.png)
-
-- Transaction Type 4: Loan transaction
-![Loan Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_4.png)
 
 
