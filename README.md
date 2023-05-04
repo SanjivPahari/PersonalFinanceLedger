@@ -19,7 +19,7 @@ I'd say ChatGPT contributed about 50% to the development of this tool, but the o
 In conclusion, if you're ever in a situation where you need a tool so badly that you can't live without it, just go ahead and create it! Who knows, it might just change your life. And hey, don't forget to thank ChatGPT for helping me polish this description too!
 
 
-
+<hr>
 
 ## Features
 
@@ -101,7 +101,7 @@ Allows users to download a backup of their financial data, which they can save l
 
 ![Download Backup Data Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/5_download_backup_data.png)
 
-
+<hr>
 
 ## Files
 
