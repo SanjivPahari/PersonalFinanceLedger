@@ -44,9 +44,9 @@ All clear means that all settlements are done, i.e. Net Amount = 0. User can opt
 ### Transaction Types
 Displays different types of transactions that a user can add to the finance system.
 
-Pending transactions are displayed by yellow highlight.
-Transactions to recieve are shown in green.
-Transactions to give are shown in red.
+- Pending transactions are displayed by yellow highlight.
+- Transactions to recieve are shown in green.
+- Transactions to give are shown in red.
 
 - Transaction Type 1: Receive Pending
 ![Income Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/7_transaction_type_1.png)
@@ -62,7 +62,10 @@ Transactions to give are shown in red.
 
 
 ### Archived Transactions
-Displays a list of archived transactions that are no longer relevant or useful.
+
+Displays a list of archived transactions that are no longer relevant or useful. \n
+User can click on arhive button to sent the transaction to archive. This removes the transaction from system if there are some errors while entering the transaction. \n
+If user reclicks the archive button, from the archived section, it will unarchive the transaction.
 
 ![Archived Transactions Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/4_archived.png)
 
