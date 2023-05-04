@@ -1,12 +1,15 @@
 # PersonalFinanceLedger
 
 A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allows users to track incoming and outgoing transactions.
+<hr>
 
-#### Developed: Arpil 2023
+#### Developed: April 2023
 
 ### Developer:
 
 - Sanjiv Pahari
+<hr>
+
 Oh boy, do I have a story to tell you!<br>
 You know that feeling when you need something so badly that it's like your life depends on it? Well, that's exactly what happened to me. I was in desperate need of a tool that could help me manage my transactions, and I just couldn't find anything that fit the bill.<br>
 But then, I stumbled upon ChatGPT and its amazing ability to write code. I was so curious that I just had to give it a try. And boy, was I blown away by its capabilities! I knew right then and there that I had to create a tool that would help me manage my transactions easily and efficiently.<br>
