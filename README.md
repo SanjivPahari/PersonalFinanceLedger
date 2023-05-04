@@ -62,7 +62,6 @@ All clear means that all settlements are done, i.e. Net Amount = 0. User can opt
 
 ### Transaction Types
 Displays different types of transactions that a user can add to the finance system.
-
 <br> Pending transactions are displayed by yellow highlight.
 <br> Transactions to recieve are shown in green.
 <br> Transactions to give are shown in red.
