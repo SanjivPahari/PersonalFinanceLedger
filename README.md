@@ -26,6 +26,11 @@ Transactions can be searched by entering payee's name, remark.
 ### Add Transaction
 Allows users to add a new transaction by selecting the transaction amount, type, remark, and payment method. User can also upto to provide further details on payment method like payment account number or other details.
 
+##### Two Way Done
+When a user selects the "Two Way Done" option, it means that a transaction has been completed between two parties. This feature is typically used for spontaneous transactions, where both parties are present and the transaction are settled immediately.
+
+In your example, if you owe Rs. 30 for food and you give the payee Rs. 30, and select the  "Two Way Done" option, it means that the transaction has been settled and recorded in the system. The system will then create two transactions, one showing that you have to pay Rs. 30 to the payee, and the other showing that the payee has received Rs. 30 from you.
+
 ##### All Clear
 All clear means that all settlements are done, i.e. Net Amount = 0. User can opt to select this option to put the transaction under 'All Clear', so that they can easily distingush points where settlements were made. The transactions where 'All Clear' were made will be displayed in blue row.
 
