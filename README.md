@@ -103,4 +103,22 @@ Allows users to download a backup of their financial data, which they can save l
 
 
 
+## Files
+
+* `icons/` - Directory containing icons for the finance system.
+* `README.md` - This file provides information about the repository.
+* `archive.php` - A PHP file for archiving transactions in the finance system.
+* `archived_transactions.php` - A PHP file for displaying archived transactions in the finance system.
+* `archives.json` - A JSON file containing data on archived transactions in the finance system.
+* `data.json` - A JSON file containing data on transactions in the finance system.
+* `download_backup.php` - A PHP file for downloading a backup of the finance system data.
+* `form.php` - A PHP file for displaying a form to input transactions into the finance system.
+* `functions.php` - A PHP file containing functions used throughout the finance system.
+* `header.php` - A PHP file containing the header for the finance system.
+* `index.php` - The main PHP file for displaying the finance system.
+* `process.php` - A PHP file for processing input from the form in `form.php`.
+* `script.js` - A JavaScript file containing functions used throughout the finance system.
+* `show_by_user.php` - A PHP file for displaying transactions by user in the finance system.
+* `show_pending.php` - A PHP file for displaying pending transactions in the finance system.
+* `style.php` - A PHP file containing the styling for the finance system.
 
