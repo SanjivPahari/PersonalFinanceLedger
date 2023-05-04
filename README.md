@@ -24,12 +24,12 @@ Transactions can be searched by entering payee's name, remark.
 ![User Transaction Details Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/2_user_transaction_2.png)
 
 ### Add Transaction
-Allows users to add a new transaction by selecting the transaction type, category, date, and amount.
+Allows users to add a new transaction by selecting the transaction amount, type, remark, and payment method. User can also upto to provide further details on payment method like payment account number or other details.
 
 ![Add Transaction Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction.png)
 
-### Add Transaction Name Suggestion
-Displays a pop-up window that suggests transaction names based on the user's input, helping users save time and maintain consistency when adding transactions.
+#### Name Suggestion
+Displays a suggestions list of payee's names. Payee's with frequent transactions are suggested at top.
 
 ![Add Transaction Name Suggestion Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/3_add_transaction_name_suggest.png)
 
