@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.give {
+  color: red;
+}
+
+.given {
+  color: darkred;
+}
+
+.receive {
+  color: green;
+}
+
+.received {
+  color: darkgreen;
+}

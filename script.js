@@ -100,3 +100,23 @@ for (let i = 0; i < tbodies.length; i++) {
   });
   
  
+ 
+
+  function printDiv() {
+  var printContents = document.getElementById('print-content').innerHTML;
+  var originalTitle = document.title; // Store the original page title
+  
+  // Generate the updated page title with date and time
+  var currentDate = new Date();
+  var formattedDate = currentDate.toLocaleDateString();
+  var formattedTime = currentDate.toLocaleTimeString();
+  var updatedTitle = document.title + ' - ' + formattedDate + ' ' + formattedTime;
+  
+  document.title = updatedTitle; // Update the page title
+  var originalContents = document.body.innerHTML;
+  document.body.innerHTML = printContents;
+  window.print();
+  document.body.innerHTML = originalContents;
+  document.title = originalTitle; // Restore the original page title
+}
+ 

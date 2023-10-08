@@ -1,7 +1,7 @@
 <?php
 
 
-
+require("nepali-date.php");
 
 
 function generateDatalist($options, $name, $placeholder, $value, $icon) {
@@ -206,6 +206,7 @@ function get_completed_transactions() {
 
 function display_theaders() {
     $headers = array(
+	   'Time' => 'clock',
         'Date' => 'calendar-alt',
         'Name' => 'user',
         'Direction' => 'exchange-alt',
@@ -262,6 +263,8 @@ function display_table_header($headers) {
 		
 		echo '<td> <button id="archive-btn" onclick="Archive('.$transaction['date'].')" class="btn btn-warning btn-sm archiveBtn" > <i class="fas fa-archive"></i></button> </td>';
 		
+	     echo '<td> <button id="repeat-btn" onclick="RepeatPayment('.$transaction['date'].')" class="btn btn-primary btn-sm " > <i class="fas fa-paper-plane"></i></button> </td>';
+
 		
 		// Read the archives.json file
 $archives = json_decode(file_get_contents('archives.json'), true);
@@ -293,9 +296,47 @@ foreach ($archives as $archive) {
 									
 									
 	
-	echo '<td>' . date('g:i A, l, jS F Y', $transaction['date']) . '</td>';
+	$nepali_date = new nepali_date();
+
+$year_en = date("Y",$transaction['date']);
+$month_en = date("m",$transaction['date']);
+$day_en = date("d",$transaction['date']);
+$date_ne = $nepali_date->get_nepali_date($year_en, $month_en, $day_en);
+
+
+					  	echo '<td> ' . date('g:i A', $transaction['date']) . '</td>';
+	
+	
+	echo '<td><b> '.$date_ne['d'].' '.$date_ne['M'].' '.$date_ne['y'].' </b> <hr>  <small class="text-muted">' . date('l, jS F Y', $transaction['date']) . ' </span> </td>';
+	
+	
 									echo '<td class="name_in_table">' . $transaction['name'] . '</td>';
-									echo '<td>' . ucfirst($transaction['direction']) . '</td>';
+									
+									
+									
+									$direction = $transaction['direction'];
+$type = $transaction['type'];
+
+// Initialize the output variable
+$output = '';
+
+if ($direction == 'give' && $type == 'completed') {
+    $output = "I have given";
+} else if ($direction == 'give' && $type == 'pending') {
+    $output = "I have to give";
+} else if ($direction == 'receive' && $type == 'pending') {
+    $output = "I have to receive";
+} else if ($direction == 'receive' && $type == 'completed') {
+    $output = "I have received";
+} else {
+    $output = "Invalid transaction";
+}
+
+									
+									echo '<td>' . $output . '</td>';
+									
+									
+									
 										echo '<td>Rs. ' . $transaction['amount'] . '</td>';
 										echo '<td> ' . $transaction['remark'] . '</td>';
 										

@@ -11,7 +11,16 @@ require_once('functions.php');
 
 <html>
 <head>
-	<title>Show Transactions By User</title>
+
+<title><?php
+if (isset($_POST['name'])) {
+    $name = $_POST['name'];
+    $remark = $_POST['remark'];
+    echo "Transactions for: $name - $remark";
+} else {
+    echo 'Show Transactions By User';
+}
+?></title>
 	
 	<?php
 require_once('style.php');
@@ -59,17 +68,22 @@ require_once('style.php');
 
 <br><br>
 		
-		
+			<div class="text-right">
+			
 		<form method="POST" action="form.php">
-		<div class="text-right">
+	
 
 
     <input type="text" name="name" hidden value="<?php if (isset($_POST['name'])) { echo htmlspecialchars($_POST['name']); } ?>">
     <button type="submit" class="btn btn-primary"> <i class="fa fa-plus"></i>  Add Transaction</button>
 	
-</div>
+
 
 </form>
+
+
+  
+  </div>
 
 		<div class="row">
    
@@ -88,9 +102,12 @@ if (isset($_POST['name'])) {
     $total_amount = 0;
     $num_transactions = 0;
     
-    echo "<h3>Transactions for: $name - $remark</h3>";
+    echo "<div id='print-content'> <h3>Transactions for: $name - $remark</h3>";
     
-   
+  
+		require('show_date.php');
+
+
     
     echo '<table class="table">';
     echo '<thead>';
@@ -106,7 +123,7 @@ if (isset($_POST['name'])) {
         $num_transactions++;
     }
     echo '</tbody>';
-    echo '</table>';
+    echo '</table> </div>';
     if ($num_transactions > 0) {
         echo "<p>Total amount: Rs. $total_amount</p>";
     } else {

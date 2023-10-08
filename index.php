@@ -18,10 +18,20 @@ require_once('functions.php');
 	
 </head>
 <body>
+
+
+
 	<div class="container">
 	
 <?PHP require('header.php'); ?>
-				
+
+</div>
+
+
+<div class="container">
+	
+<div id='test'>
+	
 		<h2>Transactions</h2>
 		
 		
@@ -71,7 +81,7 @@ require_once('functions.php');
     
 
     
-    echo "</div></div> <div class='container extra'>";
+    echo "</div></div> </div> <div class='container extra'>";
     echo "<div class='row'>";
     echo "<div class='col-md-6'>";
     echo "<h3>Completed Payments</h3>";

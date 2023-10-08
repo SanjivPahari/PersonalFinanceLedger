@@ -30,7 +30,20 @@ require_once('style.php');
 <?PHP require('header.php'); ?>
 
 	
+	</div> 
+	
+	<div id='print-content'>
+	
+	<div  class="container">
+
 		<h2>Pending Settlements</h2>
+		
+		<?PHP
+		require('show_date.php');
+?>
+
+
+
 		<table class="table">
 			<thead>
 				<tr>
@@ -118,6 +131,10 @@ $i++;
 
 			echo '<td class="name_in_table">' . $name . '</td>';
 			echo '<td>' . show_cumulative($total_receive[$name], $total_give[$name]) . '</td>';
+			
+					   echo '<td><button onclick="ClearPayment('.$total_receive[$name].','.$total_give[$name].')" class="btn btn-info" > <i class="fas fa-paper-plane"></i> Clear </button> </td>';
+
+
 			echo '</tr>';
 		}
 		?>
@@ -126,7 +143,7 @@ $i++;
 	
 	
 	<?PHP
-	 echo "</div> <div class='container extra'>";
+	 echo "</div> <div class='container extra2'>";
     echo "<div class='row'>";
     echo "<div class='col-md-6'>";
     echo "<h3>To Receive: <span class='receive '>  Rs. $total_positive  </span> </h3>";
@@ -154,6 +171,10 @@ $i++;
 $i++;
 			echo '<td class="name_in_table">' . $name . '</td>';
 			echo '<td>' . show_cumulative($total_receive[$name], $total_give[$name]) . '</td>';
+			
+		   echo '<td><button onclick="ClearPayment("'.$name.'",'.$total_receive[$name].','.$total_give[$name].')" class="btn btn-info" > <i class="fas fa-paper-plane"></i> Clear </button> </td>';
+				
+				
 			echo '</tr>';
 			
 			
@@ -176,6 +197,7 @@ $i++;
 			<table class="table">
 			<thead>
 				<tr>
+				<th>SN</th>
 					<th>Name</th>
 					<th>Net Amount</th>
 				</tr>
@@ -198,6 +220,8 @@ $i++;
 
 			echo '<td class="name_in_table">' . $name . '</td>';
 			echo '<td>' . show_cumulative($total_receive[$name], $total_give[$name]) . '</td>';
+					   echo '<td><button onclick="ClearPayment("'.$name.'",'.$total_receive[$name].','.$total_give[$name].')" class="btn btn-info" > <i class="fas fa-paper-plane"></i> Clear </button> </td>';
+
 			echo '</tr>';
 			
 			
@@ -214,9 +238,9 @@ $i++;
 	
 	
 	
+	   </div>
 	   
-	   
-	</div></div>
+	</div></div> 
 	
 	
 </div>

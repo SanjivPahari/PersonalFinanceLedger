@@ -38,39 +38,41 @@ require_once('style.php');
 
 
     </div>
-    <div class="col-sm-4">
-      <label>Direction:</label>
-	  
-	  <h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="direction" id="receive" value="receive" required>
-        <label class="form-check-label" for="receive">
-          Receive
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="direction" id="give" value="give">
-        <label class="form-check-label" for="give">
-          Give
-        </label>
-      </div>
-</h3>
 
 
-    </div>
+<div class="col-sm-4">
+    <label>Direction:</label>
+    <h3>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="direction" id="receive" value="receive" <?php echo (isset($_POST['direction']) && $_POST['direction'] === 'receive') ? 'checked' : ''; ?> required>
+            <label class="form-check-label" for="receive">
+                Receive
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="direction" id="give" value="give" <?php echo (isset($_POST['direction']) && $_POST['direction'] === 'give') ? 'checked' : ''; ?>>
+            <label class="form-check-label" for="give">
+                Give
+            </label>
+        </div>
+    </h3>
+</div>
+
+
+
     <div class="col-sm-4">
       <label>Type:</label>
 	  
 	  
 	  <h3>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="type" id="pending" value="pending" required>
+        <input class="form-check-input" type="radio" name="type" id="pending" value="pending" <?php echo (isset($_POST['type']) && $_POST['type'] === 'pending') ? 'checked' : ''; ?> required>
         <label class="form-check-label" for="pending">
           Pending
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="type" id="completed" value="completed">
+        <input class="form-check-input" type="radio" name="type" id="completed" value="completed" <?php echo (isset($_POST['type']) && $_POST['type'] === 'completed') ? 'checked' : ''; ?>>
         <label class="form-check-label" for="completed">
           Completed
         </label>
@@ -127,7 +129,7 @@ require_once('style.php');
     <label for="other-account-number" id="account-number-label">Details:</label>
   
 	
-	 <?php generateDatalist_acc_num((array_column($transactions, 'acc_num')), 'other-account-number', 'Select Acc Number'); ?>
+	 <?php generateDatalist_acc_num((array_column($transactions, 'acc_num')), 'other-account-number', 'Select Acc Number' ); ?>
 	 
 	 
     <input type="hidden" id="payment_mode" name="payment_mode" value="">

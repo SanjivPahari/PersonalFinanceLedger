@@ -49,7 +49,10 @@
 
  <style>
     .extra {
-      max-width: 1600px; /* Increase the max-width property to increase the container size */
+      max-width: 80%; /* Increase the max-width property to increase the container size */
+    }
+	 .extra2 {
+      max-width: 60%; /* Increase the max-width property to increase the container size */
     }
   </style>
 
@@ -86,5 +89,42 @@
     xhr.send("date=" + encodeURIComponent(date));
   }
 }
+
+function RepeatPayment(date) {
+  // Make an AJAX request to data.php
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "data_extract.php", true);
+  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      // Extract the returned data from the response
+      var responseObj = JSON.parse(xhr.responseText);
+
+     var data = responseObj[0];
+var form = document.createElement("form");
+form.method = "POST";
+form.action = "form.php";
+
+// Create hidden input fields to carry the extracted data
+for (var key in data) {
+  var input = document.createElement("input");
+  input.type = "hidden";
+  input.name = key;
+  input.value = data[key];
+  form.appendChild(input);
+}
+
+
+
+      // Append the form to the current page and submit it
+      document.body.appendChild(form);
+      form.submit();
+    }
+  };
+  // Send the date as a POST parameter to data.php
+  xhr.send("date=" + encodeURIComponent(date));
+}
+
+
 </script>
 
