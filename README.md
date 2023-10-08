@@ -17,6 +17,18 @@ A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allo
 - Code is cleaner
 
 ![V2Screenshot](/v2%20changes/1.png)
+<hr>
+![V2Screenshot](/v2%20changes/2.png)
+<hr>
+![V2Screenshot](/v2%20changes/3.png)
+<hr>
+![V2Screenshot](/v2%20changes/5.png)
+<hr>
+![V2Screenshot](/v2%20changes/6.png)
+<hr>
+![V2Screenshot](/v2%20changes/7.png)
+<hr>
+
 
 <hr>
 
