@@ -10,13 +10,13 @@ A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allo
 - Sanjiv Pahari
 <hr>
 
-##V2 Changes (October 2023):
+## V2 Changes (October 2023):
 - Added Nepali Date
 - Repeat Transactions
 - Few Minor Changes
 - Code is cleaner
 
-![V2Screenshot](/FINANCE%20SYSTEM%20SCREENSHOTS/1.png)
+![V2Screenshot](/v2%20changes/1.png)
 
 <hr>
 
