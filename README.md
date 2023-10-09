@@ -13,7 +13,7 @@ A simple tool made in PHP and Bootstrap with data stored in a JSON file. It allo
 ## V2 Changes (October 2023):
 - Added Nepali Date
 - Added Print
-- Repeat Transactions
+- Added Option to Repeat Transactions
 - Few Minor Changes
 - Code is cleaner
 
